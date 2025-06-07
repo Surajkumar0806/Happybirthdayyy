@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Beautiful Srushti ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section id="login-page" class="active">
+        <div class="hearts-login-container">
+            <div class="heart-base heart-outermost"></div>
+            <div class="heart-base heart-outer"></div>
+            <div class="heart-base heart-middle"></div>
+            <div class="heart-base heart-inner"></div>
+        </div>
+
+        <div class="login-box">
+            <h2>Welcome, My Love!</h2>
+            <p class="hint-trigger">Password Hint: (Hover for clue)</p>
+            <div class="hint-box">Name of the person whom I love the most</div>
+            <input type="text" id="username" placeholder="Most Beautiful Birthday Girl">
+            <input type="password" id="password" placeholder="Password (ofc Srushti)">
+            <button id="login-button">Enter My Heart</button>
+            <p id="login-error" class="error-message"></p>
+        </div>
+    </section>
+
+    <section id="whats-in-my-heart-page" class="hidden">
+        <h1>Wanna know what's in my heartttt?</h1>
+        <p class="instruction">(Press Enter or click anywhere on the screen)</p>
+    </section>
+
+    <section id="its-all-you-page" class="hidden">
+        <h1>It's all youuuu Sweetieeee!!!!😘</h1>
+    </section>
+
+    <section id="photo-gallery-page" class="hidden">
+        <h2>Our Beautiful Memories</h2>
+        <div class="gallery-wrapper">
+            <button class="gallery-arrow left-arrow">&lt;</button>
+            <div class="gallery-container" id="gallery-container">
+                </div>
+            <button class="gallery-arrow right-arrow">&gt;</button>
+        </div>
+        <p>Click a memory to revisit our journey!</p>
+        <audio id="dialSound" src="assets/sounds/dial-sound.mp3" preload="auto"></audio>
+        <button id="go-to-final-message" class="action-button">Go to Final Message</button>
+    </section>
+
+    <section id="hike-cutie-patotie" class="individual-slide hidden">
+        <h2>Let's Take a Hike: Cutie Patotie!</h2>
+        <div class="slide-content">
+            <div class="slide-text-area">
+                <p>i haven't failed to realize you are such a cute girl, my cute little girl. and the cutest. specially when you were sleeping on my lap like a happy little baby. this is a bit of your cuteness</p>
+                </div>
+            <div class="photo-slideshow-container">
+                <div class="slideshow-inner" id="slideshow-cutie-patotie">
+                    <img src="assets/srushti-photos/cutie1.jpg" alt="Cutie 1" class="slideshow-photo active">
+                    <img src="assets/srushti-photos/cutie2.jpg" alt="Cutie 2" class="slideshow-photo">
+                    <img src="assets/srushti-photos/cutie3.jpg" alt="Cutie 3" class="slideshow-photo">
+                    </div>
+                <div class="slideshow-controls">
+                    <button class="prev-photo">Prev</button>
+                    <button class="next-photo">Next</button>
+                    <button class="toggle-auto-slideshow">Auto Play</button>
+                </div>
+            </div>
+        </div>
+        <button class="back-to-gallery">Back to Memories</button>
+    </section>
+
+    <section id="hike-goofy-gorgeous" class="individual-slide hidden">
+        <h2>Let's Take a Hike: Goofy Gorgeous!</h2>
+        <div class="slide-content">
+            <div class="slide-text-area">
+                <p>For everyone else you might me a normal girl but when you are with me you turn into this goofy little kid who enjoys being impatient, spontanious, goofy, happy, cute, joyful, foodie and what not really like a baby who has just started learning how to talk, walk think. My cutu dudu!!!!</p>
+                </div>
+            <div class="photo-slideshow-container">
+                <div class="slideshow-inner" id="slideshow-goofy-gorgeous">
+                    <img src="assets/srushti-photos/goofy1.jpg" alt="Goofy 1" class="slideshow-photo active">
+                    <img src="assets/srushti-photos/goofy2.jpg" alt="Goofy 2" class="slideshow-photo">
+                    <img src="assets/srushti-photos/goofy3.jpg" alt="Goofy 3" class="slideshow-photo">
+                    </div>
+                <div class="slideshow-controls">
+                    <button class="prev-photo">Prev</button>
+                    <button class="next-photo">Next</button>
+                    <button class="toggle-auto-slideshow">Auto Play</button>
+                </div>
+            </div>
+        </div>
+        <button class="back-to-gallery">Back to Memories</button>
+    </section>
+
+    <section id="hike-hot-spicy" class="individual-slide hidden">
+        <h2>Let's Take a Hike: Hot and Spicy Hottie Alert!</h2>
+        <div class="slide-content">
+            <div class="slide-text-area">
+                <p>well there isn't a day I dont think "damnnn such a hotie, I have time keeping my hands off you and your ass. what a delisious piece of cake it is, and evey inch of you is like magic it just amuses me every single time i taste you. I just find one or other reason to touch you"</p>
+                </div>
+            <div class="photo-slideshow-container">
+                <div class="slideshow-inner" id="slideshow-hot-spicy">
+                    <img src="assets/srushti-photos/hot1.jpg" alt="Hotie 1" class="slideshow-photo active">
+                    <img src="assets/srushti-photos/hot2.jpg" alt="Hotie 2" class="slideshow-photo">
+                    <img src="assets/srushti-photos/hot3.jpg" alt="Hotie 3" class="slideshow-photo">
+                    <img src="assets/srushti-photos/hot4.jpg" alt="Hotie 4" class="slideshow-photo">
+                    </div>
+                <div class="slideshow-controls">
+                    <button class="prev-photo">Prev</button>
+                    <button class="next-photo">Next</button>
+                    <button class="toggle-auto-slideshow">Auto Play</button>
+                </div>
+            </div>
+        </div>
+        <button class="back-to-gallery">Back to Memories</button>
+    </section>
+
+    <section id="hike-smarty-pants" class="individual-slide hidden">
+        <h2>Let's Take a Hike: Smarty Pants!</h2>
+        <div class="slide-content">
+            <div class="slide-text-area">
+                <p>You are not just a little baby or a sexy girl you are also the smartest and the bravest girl. you have had a lot in your life but still you smile like and angle and be kind to people and have done a lot of work. Never go back from taking responsibility, you're the wise-chair of the </p>
+                </div>
+            <div class="photo-slideshow-container">
+                <div class="slideshow-inner" id="slideshow-smarty-pants">
+                    <img src="assets/srushti-photos/smart1.jpg" alt="Smarty 1" class="slideshow-photo active">
+                    <img src="assets/srushti-photos/smart2.jpg" alt="Smarty 2" class="slideshow-photo">
+                    </div>
+                <div class="slideshow-controls">
+                    <button class="prev-photo">Prev</button>
+                    <button class="next-photo">Next</button>
+                    <button class="toggle-auto-slideshow">Auto Play</button>
+                </div>
+            </div>
+        </div>
+        <button class="back-to-gallery">Back to Memories</button>
+    </section>
+
+    <section id="hike-elegant-princess" class="individual-slide hidden">
+        <h2>Let's Take a Hike: Elegant Princess!</h2>
+        <div class="slide-content">
+            <div class="slide-text-area">
+                <p>The movment you showed me those photos of you in a saree with the nose pin I really saw you like a Queen that beauty and confidence in your eye is not less then any brave Queen. You rule my heart and you will rule everything  and be a brave andd amazing woman and have all that you want. You do girl!!! I am right by your side.</p>
+                </div>
+            <div class="photo-slideshow-container">
+                <div class="slideshow-inner" id="slideshow-elegant-princess">
+                    <img src="assets/srushti-photos/elegant1.jpg" alt="Elegant 1" class="slideshow-photo active">
+                    <img src="assets/srushti-photos/elegant2.jpg" alt="Elegant 2" class="slideshow-photo">
+                    <img src="assets/srushti-photos/elegant3.jpg" alt="Elegant 3" class="slideshow-photo">
+                    <img src="assets/srushti-photos/elegant4.jpg" alt="Elegant 4" class="slideshow-photo">
+                    </div>
+                <div class="slideshow-controls">
+                    <button class="prev-photo">Prev</button>
+                    <button class="next-photo">Next</button>
+                    <button class="toggle-auto-slideshow">Auto Play</button>
+                </div>
+            </div>
+        </div>
+        <button class="back-to-gallery">Back to Memories</button>
+    </section>
+
+    <section id="hike-all-time-favorites" class="individual-slide hidden">
+        <h2>Let's Take a Hike: All Time Favorites!</h2>
+        <div class="slide-content">
+            <div class="slide-text-area">
+                <p> These are some of my all time favorites. You look amazing all the time but when i see these photos my heart just dwells out of joy. Makes me realize that i am in love with an amazing angel not just ffrom your looks but from your heart too.</p>
+                </div>
+            <div class="photo-slideshow-container">
+                <div class="slideshow-inner" id="slideshow-all-time-favorites">
+                    <img src="assets/srushti-photos/fav1.jpg" alt="Favorite 1" class="slideshow-photo active">
+                    <img src="assets/srushti-photos/fav2.jpg" alt="Favorite 2" class="slideshow-photo">
+                    <img src="assets/srushti-photos/fav3.jpg" alt="Favorite 3" class="slideshow-photo">
+                    <img src="assets/srushti-photos/fav4.jpg" alt="Favorite 4" class="slideshow-photo">
+                    </div>
+                <div class="slideshow-controls">
+                    <button class="prev-photo">Prev</button>
+                    <button class="next-photo">Next</button>
+                    <button class="toggle-auto-slideshow">Auto Play</button>
+                </div>
+            </div>
+        </div>
+        <button class="back-to-gallery">Back to Memories</button>
+    </section>
+
+    <section id="hike-shh-hot-drool" class="individual-slide hidden">
+        <h2>Let's Take a Hike: 🤫🥵🤤</h2>
+        <div class="slide-content">
+            <div class="slide-text-area">
+                <p>This is us. one day you asked me, how do we look, do we look good together. Then I gave some stupid ass intellectual answer. Now you tel me, dont we look good together </p>
+                </div>
+            <div class="photo-slideshow-container">
+                <div class="slideshow-inner" id="slideshow-shh-hot-drool">
+                    <img src="assets/srushti-photos/secret1.jpg" alt="us 1" class="slideshow-photo active">
+                    <img src="assets/srushti-photos/secret2.jpg" alt="us 2" class="slideshow-photo">
+                    <img src="assets/srushti-photos/secret3.jpg" alt="us 3" class="slideshow-photo">
+                    <img src="assets/srushti-photos/secret4.jpg" alt="us 4" class="slideshow-photo">
+                    <img src="assets/srushti-photos/secret5.jpg" alt="us 5" class="slideshow-photo">
+                    <img src="assets/srushti-photos/secret6.jpg" alt="us 6" class="slideshow-photo">
+                    </div>
+                <div class="slideshow-controls">
+                    <button class="prev-photo">Prev</button>
+                    <button class="next-photo">Next</button>
+                    <button class="toggle-auto-slideshow">Auto Play</button>
+                </div>
+            </div>
+        </div>
+        <button class="back-to-gallery">Back to Memories</button>
+    </section>
+
+    <section id="hike-green-saree" class="individual-slide hidden">
+        <h2>Let's Take a Hike: The Green Saree 😌</h2>
+        <div class="slide-content">
+            <div class="slide-text-area">
+                <p> I don't know what is it with you and the colour green, whenever you have woren one you look just amazing it could be the green saree in which you looked like a brave queen, or the one on the event in which you looked like a cute princess and mee. Seeing you has been a blessing to my eyes may I eyes be blessed like this forever</p>
+                </div>
+            <div class="photo-slideshow-container">
+                <div class="slideshow-inner" id="slideshow-green-saree">
+                    <img src="assets/srushti-photos/green_saree1.jpg" alt="Green Saree 1" class="slideshow-photo active">
+                    <img src="assets/srushti-photos/green_saree2.jpg" alt="Green Saree 2" class="slideshow-photo">
+                    <img src="assets/srushti-photos/green_saree3.jpg" alt="Green Saree 3" class="slideshow-photo">
+                    <img src="assets/srushti-photos/green_saree4.jpg" alt="Green Saree 4" class="slideshow-photo">
+                    </div>
+                <div class="slideshow-controls">
+                    <button class="prev-photo">Prev</button>
+                    <button class="next-photo">Next</button>
+                    <button class="toggle-auto-slideshow">Auto Play</button>
+                </div>
+            </div>
+        </div>
+        <button class="back-to-gallery">Back to Memories</button>
+    </section>
+
+
+    <section id="thank-you-page" class="hidden">
+        <h1>Thank you for watching!</h1>This is a little of what I could express of your beautiful. You are the most amazing, gorgious, stunning, smart, sexy, brave, sexy and stunning so much more to me. and I tried it through it through this and this could cover a little part of your beauty there is so much more to you. There are tons of more photos of you I cherish in me.
+        <h1 class="calligraphy">
+            Happy birthday! May you have an awesome year and life ahead of you and you get all the happiness and joy in the world.<br>
+        </h1>
+		<h3><p> I love you Srushti 😘 my sweet little cute princess. Love you so much.These are some memories of you in me and and about us. I hope you are having a good time. i want to make you happy to the fullest so you forget what is not being happy is like. I want you to have all the happiness in the  world because you deserve every bit of it. I will give my everything untill i make you feel like you're the happiest person alive and your life is amazing. I woud love to see you smile, laugh, enjoy, acheive everything you ever dreamed of. I might not be perfect but I will give my everything if that meant your happiness. I never knew I could fall in love with someone in this way that I forget myself. It's is my pleasure to help you have everything in your life and be at your side. I would love nothing more then holding your hand and help you go through everything and be there to tell you it's all gonna be fine. You are an amazing person. Anyone would be lucky to love youand be loved by you and thank you for giving me that. I am all your's. <br>I LOVE YOU, I LOVE YOU A LOT, Srushti.</p></h3>
+                <p class="final-message">Love to spend this day with you ❤️</p>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
